@@ -2,7 +2,7 @@
 	"manifest_version":2,
 	"name":"YT Cleaner",
 	"description":"yt cleaner",
-	"version":"1.0",
+	"version":"1.0.0",
 	"content_scripts":[{
 		"js":["contentscript.js"],
 		"matches":["https://www.youtube.com/*"]

@@ -2,6 +2,7 @@
 #
 # Purpose: Pack a Chromium extension directory into crx format
 # see https://developer.chrome.com/extensions/crx#scripts
+# modification to auto key generation from ludio
 
 if test $# -ne 3; then
   echo "Usage: crxmake.sh <extension dir> <pem path> <output dir>"

@@ -4,8 +4,8 @@
 	"description":"yt cleaner",
 	"version":"1.0.2",
 	"content_scripts":[{
-		"js":["contentscript.js"],
-		"matches":["https://www.youtube.com/*"]
+		"js":["yt.js","g.js"],
+		"matches":["https://www.youtube.com/*","https://www.google.*/*"]
 	}],
-  "web_accessible_resources":["remove-yt.js"]
+  "web_accessible_resources":["remove-yt.js","remove-g.js"]
 }

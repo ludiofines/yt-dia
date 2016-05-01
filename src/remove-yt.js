@@ -22,3 +22,7 @@ if (document.getElementsByClassName('gb_Ia').length > 0)
 	for (i=0;i<ilen;i++)
 		c[i].remove();
 }
+if (document.getElementById('lb') != null)
+{
+	document.getElementById('lb').remove();
+}

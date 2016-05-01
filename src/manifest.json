@@ -2,10 +2,12 @@
 	"manifest_version":2,
 	"name":"YT Cleaner",
 	"description":"yt cleaner",
-	"version":"1.0.2",
+	"version":"1.0.3",
 	"content_scripts":[{
-		"js":["yt.js","g.js"],
-		"matches":["https://www.youtube.com/*","https://www.google.*/*"]
+		"js":["yt.js"],
+		"matches":[
+			"http://*/*",
+			"https://*/*"]
 	}],
-  "web_accessible_resources":["remove-yt.js","remove-g.js"]
+  "web_accessible_resources":["remove-yt.js"]
 }
